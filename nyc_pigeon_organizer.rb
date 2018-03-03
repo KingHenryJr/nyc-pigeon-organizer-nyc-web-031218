@@ -4,7 +4,8 @@ def nyc_pigeon_organizer(data)
   #sort or sort by?
   data.each do |info, datahash|
     datahash.each do |stuff, names|
-      names.each do ||
+      names.each do |pigeon|
+        if new[]
   
   binding.pry
   end 
