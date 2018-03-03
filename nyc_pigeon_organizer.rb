@@ -7,9 +7,10 @@ def nyc_pigeon_organizer(data)
       names.each do |pigeon|
         if !new_list[pigeon].nil? 
           new_list[pigeon] = {}
-  
+        end
   binding.pry
-        if new_list[pigeon][]
+        if new_list[pigeon][info].nil?
+        new_list[pigeon]
         end
       end 
     end 
