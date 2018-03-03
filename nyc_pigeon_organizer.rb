@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     datahash.each do |stuff, names|
       names.each do |pigeon|
         if !new_list[pigeon].nil? 
-          new_list[pigeon] = {}
+          new_list[pigeon] ||= {}
         end
         if new_list[pigeon][info].nil?
         new_list[pigeon][info] = []
