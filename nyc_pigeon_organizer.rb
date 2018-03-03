@@ -6,10 +6,12 @@ def nyc_pigeon_organizer(data)
     datahash.each do |stuff, names|
       names.each do |pigeon|
         if !new[pigeon].include?(pigeon) 
-          new[pigeon]
+          new[pigeon] = {}
   binding.pry
+        end
+      end 
+    end 
   end 
-
   return new
 end
 
