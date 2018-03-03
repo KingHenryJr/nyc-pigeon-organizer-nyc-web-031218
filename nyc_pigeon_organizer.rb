@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
         end
   binding.pry
         if new_list[pigeon][info].nil?
-        new_list[pigeon]
+        new_list[pigeon][info] = []
         end
       end 
     end 
