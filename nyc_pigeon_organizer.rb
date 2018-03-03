@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
           new_list[pigeon] = {}
   
   binding.pry
-  
+        if 
         end
       end 
     end 
