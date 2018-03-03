@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
         if !new_list[pigeon].nil? 
           new_list[pigeon] = {}
         end
-  binding.pry
         if new_list[pigeon][info].nil?
         new_list[pigeon][info] = []
         end
