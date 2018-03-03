@@ -7,7 +7,9 @@ def nyc_pigeon_organizer(data)
       names.each do |pigeon|
         if !new_list[pigeon].include?(pigeon) 
           new_list[pigeon] = {}
+  
   binding.pry
+  
         end
       end 
     end 
