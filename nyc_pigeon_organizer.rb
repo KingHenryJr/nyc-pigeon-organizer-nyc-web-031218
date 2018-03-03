@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
         new_list[pigeon][info] = []
         end
       
-      
+        new_list[pigeon][info].to_s
       
       end 
     end 
