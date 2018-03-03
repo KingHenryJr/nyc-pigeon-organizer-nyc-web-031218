@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
   data.each do |info, datahash|
     datahash.each do |stuff, names|
       names.each do |pigeon|
-        if !new[pigeon].include?(pigeon)  
-  
+        if !new[pigeon].include?(pigeon) = {} 
+          
   binding.pry
   end 
 
