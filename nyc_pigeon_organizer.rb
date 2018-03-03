@@ -12,6 +12,9 @@ def nyc_pigeon_organizer(data)
         if new_list[pigeon][info].nil?
         new_list[pigeon][info] = []
         end
+      
+      
+      
       end 
     end 
   end 
